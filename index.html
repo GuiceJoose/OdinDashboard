@@ -14,19 +14,26 @@
     <main>
         <div class="header">
             <div class="header-top">
-                <input type="search" name="search" id="search">
+                <div class="searchbar">
+                    <img class="search-icon" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU2Ljk2NiA1Ni45NjYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDU2Ljk2NiA1Ni45NjY7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPHBhdGggZD0iTTU1LjE0Niw1MS44ODdMNDEuNTg4LDM3Ljc4NmMzLjQ4Ni00LjE0NCw1LjM5Ni05LjM1OCw1LjM5Ni0xNC43ODZjMC0xMi42ODItMTAuMzE4LTIzLTIzLTIzcy0yMywxMC4zMTgtMjMsMjMgIHMxMC4zMTgsMjMsMjMsMjNjNC43NjEsMCw5LjI5OC0xLjQzNiwxMy4xNzctNC4xNjJsMTMuNjYxLDE0LjIwOGMwLjU3MSwwLjU5MywxLjMzOSwwLjkyLDIuMTYyLDAuOTIgIGMwLjc3OSwwLDEuNTE4LTAuMjk3LDIuMDc5LTAuODM3QzU2LjI1NSw1NC45ODIsNTYuMjkzLDUzLjA4LDU1LjE0Niw1MS44ODd6IE0yMy45ODQsNmM5LjM3NCwwLDE3LDcuNjI2LDE3LDE3cy03LjYyNiwxNy0xNywxNyAgcy0xNy03LjYyNi0xNy0xN1MxNC42MSw2LDIzLjk4NCw2eiIgZmlsbD0iIzAwMDAwMCIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+                    <input class="search" placeholder="Search" type="text" >
+                  </div> 
                 <div class="user-status">
-                    <div class="bell">bell</div>
-                    <div class="smallIcon">icon</div>
-                    <div class="smallUserName">User</div>
+                    <div class="bell"><img src="./bell-ring-outline.svg" alt="Bell icon"></div>
+                    <div class="small-icon">
+                        <p class="small-initials">GJ</p>
+                    </div>
+                    <div class="small-username">GuiceJoose</div>
                 </div>
             </div>
             <div class="header-bottom">
                 <div class="greeting">
-                    <div class="user-icon">Imghere</div>
+                    <div class="user-icon">
+                        <p class="initials">GJ</p>
+                    </div>
                     <div class="greeting-text">
                         <div>Hi there,</div>
-                        <div class="userName">User</div>
+                        <div class="username">GuiceJoose</div>
                     </div>
                 </div>
                 <div class="header-actions">
@@ -37,40 +44,84 @@
             </div>
         </div>
         <div class="sidebar">
-            <div class="dashboard">Dashboard</div>
+            <div class="dashboard"><img src="./view-dashboard.svg" alt=""> Dashboard</div>
             <div class="sidebar-top">
-                <div>Home</div>
-                <div>Profile</div>
-                <div>Messages</div>
-                <div>History</div>
-                <div>Tasks</div>
-                <div>Communities</div>
+                <div><img src="./images/home.svg" alt=""> Home</div>
+                <div><img src="./images/account.svg" alt=""> Profile</div>
+                <div><img src="./images/message.svg" alt=""> Messages</div>
+                <div><img src="./images/history.svg" alt=""> History</div>
+                <div><img src="./images/tasks.svg" alt=""> Tasks</div>
+                <div><img src="./images/community.svg" alt=""> Communities</div>
             </div>
             <div class="sidebar-bottom">
-                <div>Settings</div>
-                <div>Support</div>
-                <div>Privacy</div>
+                <div><img src="./images/settings.svg" alt=""> Settings</div>
+                <div><img src="./images/support.svg" alt=""> Support</div>
+                <div><img src="./images/privacy.svg" alt=""> Privacy</div>
             </div>
         </div>
         <div class="main-content">
             <div class="projects">
-                <div class="card">1</div>
-                <div class="card">2</div>
-                <div class="card">3</div>
-                <div class="card">4</div>
-                <div class="card">5</div>
-                <div class="card">6</div>
+                <div class="projects-title">Your Projects</div>
+                <div class="project-cards">
+                    <div class="card">
+                        <h2>Card 1</h2>
+                        <div>bing bong text here bing bong text here bing bong text here bing bong text herebing bong text here bing bong text herebing bong text here bing bong text here</div>
+                        <div class="card-options"></div>
+                    </div>
+                    <div class="card">
+                        <h2>Card 2</h2>
+                        <div>bbing bong text here bing bong text here bing bong text here bing bong text herebing bong text here bing bong text herebing bong text here bing bong text here</div>
+                        <div class="card-options"></div>
+                    </div>
+                    <div class="card">
+                        <h2>Card 3</h2>
+                        <div>bing bong text here bing bong text here bing bong text here bing bong text herebing bong text here bing bong text herebing bong text here bing bong text here</div>
+                        <div class="card-options"></div>
+                    </div>
+                    <div class="card">
+                        <h2>Card 4</h2>
+                        <div>bing bong text here bing bong text here bing bong text here bing bong text herebing bong text here bing bong text herebing bong text here bing bong text here</div>
+                        <div class="card-options"></div>
+                    </div>
+                    <div class="card">
+                        <h2>Card 5</h2>
+                        <div>bing bong text here bing bong text here bing bong text here bing bong text herebing bong text here bing bong text herebing bong text here bing bong text here</div>
+                        <div class="card-options"></div>
+                    </div>
+                    <div class="card">
+                        <h2>Card 6</h2>
+                        <div>bing bong text here bing bong text here bing bong text here bing bong text herebing bong text here bing bong text herebing bong text here bing bong text here</div>
+                        <div class="card-options"></div>
+                    </div>
+                </div>
             </div>
-            <div class="announcements">
-                <div class="announcement-card">Site Maintenance</div>
-                <div class="announcement-card">Community Share Day</div>
-                <div class="announcement-card">Updated Privacy Policy</div>
-            </div>
-            <div class="trending">
-                <div class="trending-user">Goose1</div>
-                <div class="trending-user">Goose2</div>
-                <div class="trending-user">Goose3</div>
-                <div class="trending-user">Goose4</div>
+            <div class="right-bar">
+                <div class="announcements">
+                    <div class="announcements-title">Announcements</div>
+                    <div class="announcements-card">
+                        <div class="announcement1">
+                            <h3>Site Maintenence</h3>
+                            <div>When we doin maintenance on the site, it ain't gone work.</div>
+                        </div>
+                        <div class="announcement2">
+                            <h3>Community Share Day</h3>
+                            <div>This is when the community is gonna share or something</div>
+                        </div>
+                        <div class="announcement3">
+                            <h3>Updated Privacy Policy</h3>
+                            <div>The update is that you get no more privacy</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending">
+                    <div class="trending-title">Trending</div>
+                    <div class="trending-card">
+                        <div class="trending-user">Goose1</div>
+                        <div class="trending-user">Goose2</div>
+                        <div class="trending-user">Goose3</div>
+                        <div class="trending-user">Goose4</div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
